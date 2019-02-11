@@ -1,0 +1,45 @@
+baseURL = "http://example.org/"
+languageCode = "zh-CN"
+title = "jakiechen's blog"
+theme = "maupassant"
+
+#GA
+googleAnalytics = "GA ID"
+
+#disqus
+disqusShortname = "jakiechen"
+
+#summary
+summaryLength = 140
+
+[menu]
+  [[menu.main]]
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
+    weight = 2
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 3
+
+[params]
+  author = "jakiechen"
+  busuanzi = true
+  preserveTaxonmyNames = true
+  disablePathToLower = true
+  [[params.links]]
+    title = "link"
+    name = "link"
+    url = "www.qq.com"
+  [[params.ads]]
+    title = "ad"
+    url = "https://www.qq.com"
+    img = ""
+  [params.utteranc]
+    enable = true
+    repo = ""
+    issueTerm = "pathname"
+    theme = "github-light"
+
