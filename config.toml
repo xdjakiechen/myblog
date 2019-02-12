@@ -3,6 +3,9 @@ languageCode = "zh-CN"
 title = "jakiechen's blog"
 theme = "maupassant"
 
+[author]
+  name = "jakiechen"
+
 #GA
 googleAnalytics = "GA ID"
 
@@ -11,6 +14,14 @@ disqusShortname = "jakiechen"
 
 #summary
 summaryLength = 140
+
+[taxonomies]
+  tag = "tags"
+  series = "series"
+  category = "categories"
+
+[permalinks]
+  posts = "/:year/:month/:title/"
 
 [menu]
   [[menu.main]]
@@ -26,15 +37,18 @@ summaryLength = 140
 
 [params]
   author = "jakiechen"
+  subtitle = "Tencent高级开发工程师，专注后台开发，高性能服务，C++，golang"
+  description = "Tencent高级开发工程师，专注后台开发，高性能服务，C++，golang"
+  keywords = ""
   busuanzi = true
   preserveTaxonmyNames = true
   disablePathToLower = true
   [[params.links]]
-    title = "link"
-    name = "link"
-    url = "www.qq.com"
+    title = "企鹅电竞"
+    name = "企鹅电竞"
+    url = "https://egame.qq.com"
   [[params.ads]]
-    title = "ad"
+    title = "todo..."
     url = "https://www.qq.com"
     img = ""
   [params.utteranc]
