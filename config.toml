@@ -53,7 +53,7 @@ summaryLength = 140
     img = ""
   [params.utteranc]
     enable = true
-    repo = ""
+    repo = "xdjakiechen/utterance-repo"
     issueTerm = "pathname"
     theme = "github-light"
 
