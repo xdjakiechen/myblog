@@ -3,17 +3,17 @@ languageCode = "zh-CN"
 title = "jakiechen's blog"
 theme = "maupassant"
 
-[author]
-  name = "jakiechen"
-
 #GA
 googleAnalytics = "UA-134507027-1"
 
 #disqus
-disqusShortname = "jakiechen"
+#disqusShortname = "jakiechen"
 
 #summary
 summaryLength = 140
+
+[author]
+  name = "jakiechen"
 
 [taxonomies]
   tag = "tags"
