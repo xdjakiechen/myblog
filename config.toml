@@ -7,7 +7,7 @@ theme = "maupassant"
   name = "jakiechen"
 
 #GA
-googleAnalytics = "GA ID"
+googleAnalytics = "UA-134507027-1"
 
 #disqus
 disqusShortname = "jakiechen"
